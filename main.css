@@ -471,6 +471,20 @@ html {
 
     /* ----------> Skills Section Styles <---------- */
 
+    .skills-item__title {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        box-sizing: border-box;
+    }
+    
+    .skills-item__description {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18px;
+        line-height: 20px;
+        box-sizing: border-box;
+    }
+
 
     .skills-items {
         padding-top: 20px;
@@ -565,5 +579,49 @@ html {
         display: grid;
         justify-content: center;
         text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:480px) {
+
+    .btn {
+        width:50vw ;
+    }
+    
+    .section-title__line {
+        display: none;
+    }
+
+    .portfolio-btns {
+        display: grid;
+        grid-template-columns: auto;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+    
+    .portfolio-btn {
+        width: 180px;
+    }
+
+    .portfolio-items img {
+        padding-bottom: 8px ;
+        width: 99vw;
+        box-sizing: border-box;
+    }
+
+    .skills-item__title {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        box-sizing: border-box;
+    }
+    
+    .skills-item__description {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18px;
+        line-height: 20px;
+        box-sizing: border-box;
     }
 }
