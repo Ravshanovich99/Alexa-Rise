@@ -1,0 +1,569 @@
+/* ----------> Core Styles <---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', "sans-serif";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn {
+    width: 220px;
+    height: 55px;
+    border: 1px solid #bdae82;
+    background-color: #bdae82;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #bdae82;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.section-title__line {
+    display: inline-block;
+    width: 300px;
+    height: 15px;
+    border-top: 2px solid #bdae82;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+/* ----------> Header Section Styles <---------- */
+
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    transition: all 0.3s ease;
+}
+
+.logo-img:hover {
+    filter: invert(61%) sepia(20%) saturate(807%) hue-rotate(7deg) brightness(150%) contrast(68%);
+}
+
+
+.navbar {
+    display: flex;
+    width: 50%;
+}
+
+.navbar > ul  {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.navbar > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.navbar > ul > li > a:hover {
+    color: #bdae82;
+}
+
+.active {
+    color: #bdae82;
+}
+
+.nav-items {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.switch-lng {
+    color: #fff;
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+}
+
+
+/* ----------> Main Section Styles <---------- */
+
+
+.container-hero {
+    min-width: 100%;
+    height: auto;
+    background: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    object-fit: cover;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 40px;
+    color: #fff;
+}
+
+.hero-title {
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.hero-text {
+    width: 32%;
+    font-size: 20px;
+    box-sizing: border-box;
+    line-height: 30px;
+    padding: 30px 0;
+}
+
+
+/* ----------> Skills Section Styles <---------- */
+
+
+.skills-section {
+    min-width: 100%;
+    padding-top: 100px;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.skills-items {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.skills-item {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.skills-item__title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.skills-item__description {
+    line-height: 30px;
+}
+
+
+/* ----------> Portfolio Section Styles <---------- */
+
+
+.portfolio-section {
+    min-width: 100%;
+    padding-top: 100px;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.portfolio-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.portfolio-btn {
+    width: 220px;
+    height: 55px;
+    border: 2px solid #bdae82;
+    background-color: #000;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #bdae82;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.portfolio-btn:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.portfolio-items img {
+    padding-bottom: 8px ;
+    width: 440px;
+    box-sizing: border-box;
+}
+
+
+/* ----------> Video Section Styles <---------- */
+
+
+.video-section {
+    padding-top: 100px;
+    min-width: 100%;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+}
+
+.video {
+    padding-top: 80px;
+    width: 100%;
+    position: relative;
+}
+
+.video-img {
+    width: 100%;
+}
+
+.video-player {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    right: 45%;
+    top: 40%;
+    transform: translate(-50% -50%);
+    transition: all 0.3s ease;
+}
+
+.video-player:hover {
+    filter: invert(61%) sepia(20%) saturate(807%) hue-rotate(7deg) brightness(150%) contrast(68%);
+}
+
+
+/* ----------> Price Section Styles <---------- */
+
+
+.price-section {
+    padding-top: 100px;
+    min-width: 100%;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.price-items {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.price-item {
+    width: 30%;
+    height: auto;
+    border: 2px solid #bdae82;
+}
+
+.price-item__title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Merriweather';
+    padding: 28px;
+}
+
+.price-item__value {
+    text-align: center;
+    color: #bdae82;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 24px;
+    font-family: 'Merriweather';
+}
+
+.price-item__description {
+    text-align: center;
+}
+
+.price-item__description p {
+    font-size: 18px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.price-item__btn {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+
+/* ----------> Contacts Section Styles <---------- */
+
+
+.container-contacts {
+    min-width: 100%;
+    height: auto;
+    background: url(./images/contacts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    object-fit: cover;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.contacts-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts-items > h2 {
+    align-self: flex-start;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contacts-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-items input {
+    width: 33vw;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #bdae82;
+    margin: 10px 0 10px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.contacts-items textarea {
+    width: 33vw;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #bdae82;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0;
+    outline: none;
+}
+
+::placeholder {
+    color: #bdae82;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+}
+
+.contacts-items > button {
+    margin-top: 30px;
+}
+
+
+
+/* ----------> Footer Section Styles <---------- */
+
+
+.footer-section {
+    min-width: 100%;
+    height: 23vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.social-list > a > i {
+    font-size: 32px;
+    color: #fff;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.social-list > a > i:hover {
+    color: #bdae82;
+}
+
+
+@media only screen and (max-width:767px) {
+
+    /* ----------> Core Section Styles <---------- */
+
+    .section-title {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        color: #bdae82;
+        font-family: 'Merriweather', serif;
+        
+    }
+    
+    .section-title__line {
+        width: 18vw;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /* ----------> Header Section Styles <---------- */
+
+    .nav-items {
+        display: none;
+    }
+
+
+    /* ----------> Main Section Styles <---------- */
+
+
+    .container-hero {
+        min-width: 100%;
+        height: auto;
+        background: url(./images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100%;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+
+    .hero-title {
+        font-size: 32px;
+        font-weight: 400;
+    }
+    
+    .hero-text {
+        width: 60vw;
+        font-size: 20px;
+        box-sizing: border-box;
+        line-height: 20px;
+    }
+
+
+    /* ----------> Skills Section Styles <---------- */
+
+
+    .skills-items {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        display: grid;
+        grid-template-columns: auto auto;
+        box-sizing: border-box;
+    }
+    
+
+    /* ----------> Portfolio Section Styles <---------- */
+
+
+    .portfolio-btns {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .portfolio-items {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+
+    /* ----------> Price Section Styles <---------- */
+
+    .price-items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .price-item {
+        width: 60%;
+        margin-bottom: 40px;
+    }
+    
+
+    /* ----------> Contacts Section Styles <---------- */
+
+    .contacts-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacts-items > h2 {
+        align-self: center;
+    }
+    
+    .contacts-items input {
+        width: 70vw;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 2px solid #bdae82;
+        margin: 10px 0 10px 0;
+        box-sizing: border-box;
+        outline: none;
+    }
+    
+    .contacts-items textarea {
+        width: 70vw;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 2px solid #bdae82;
+        box-sizing: border-box;
+        margin: 10px 0 10px 0;
+        outline: none;
+    }
+
+    .contacts-items > button {
+        align-self: center;
+    }
+
+
+    /* ----------> Footer Section Styles <---------- */
+
+    .container-contacts {
+        min-width: 100%;
+        height: auto;
+        background: url(./images/contacts.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 40%;
+        object-position: center;
+        padding: 40px;
+        box-sizing: border-box;
+    }
+    
+
+    .footer-section {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+}
