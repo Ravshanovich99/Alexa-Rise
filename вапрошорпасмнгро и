@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,36 +28,17 @@
                     <li class="nav-item"><a href="#price-section">Price</a></li>
                     <li class="nav-item"><a href="#contacts-section">Contacts</a></li>
                 </ul>
-
-
-                <!------------------ Burger Menu ------------------->
-                <ul class="burgerMenu">
-                    <li class="burgerMenuItems"><a href="#skills-section">Skills</a></li>
-                    <li class="burgerMenuItems"><a href="#portfolio-section">Portfolio</a></li>
-                    <li class="burgerMenuItems"><a href="#video-section">Video</a></li>
-                    <li class="burgerMenuItems"><a href="#price-section">Price</a></li>
-                    <li class="burgerMenuItems"><a href="#contacts-section">Contacts</a></li>
-                </ul>
-                <!------------------ / Burger Menu ------------------->
-                
-                
                 <ul class="switch-lng">
                     <li><a href="#"><span class="active">en</span></a></li>
                     <li>/</li>
                     <li><a href="#">ru</a></li>
                 </ul>
-                <div class="toggle-box">
-                    <div class="toggle-container">
-                        <div class="toggle">
-                        </div>
-                    </div>
-                </div>
             </nav>
         </header>
     
-        <!-- ==================== Hero Section ==================== -->
+        <!-- ==================== Main Section ==================== -->
     
-        <section id="hero" class="hero">
+        <main id="hero" class="hero">
             <h1 class="hero-title">
                 Alexa Rise
             </h1>
@@ -67,7 +48,7 @@
             <button type="button" class="btn">
                 Hire me
             </button>
-        </section>
+        </main>
     </div>
 
     <!-- ==================== Skills Section ==================== -->
@@ -132,7 +113,7 @@
             <button type="button" class="portfolio-btn">
                 Summer
             </button>
-            <button type="button" class="btn">
+            <button type="button" class="portfolio-btn">
                 Autumn
             </button>
         </div>
@@ -254,7 +235,7 @@
             <a href="https://rs.school/js-stage0/"><i class="fas fa-graduation-cap"></i></a>
         </div>
     </footer>
-    <script src="/script.js"></script>
+
     <!-- ==================== Thank You For Checking))) ==================== -->
 </body>
 </html>
