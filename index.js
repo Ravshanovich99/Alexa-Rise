@@ -2,8 +2,6 @@ const toggleContainer = document.querySelector('.toggle-container');
 const toggle = document.querySelector('.toggle');
 const buregerMenu = document.querySelector('.burgerMenu')
 const link = document.querySelectorAll('.burgerMenuItems')
-console.log(buregerMenu)
-console.log(link)
 
 link.forEach(elem => elem.addEventListener('click', () => {
     toggleContainer.classList.toggle('open')
@@ -23,4 +21,12 @@ toggleContainer.addEventListener('click', () => {
         toggleContainer.style.position = "static"
     }
 });
+
+
+console.log('1 - 12')
+console.log('2 - 20')
+console.log('3 - 48')
+console.log('4 - 12')
+console.log('5 - 20')
+
 
